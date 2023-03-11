@@ -1,0 +1,34 @@
+.card {
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.card_image {
+    height: 185px;
+}
+
+.card_title_section {
+    margin: 0 1em;
+    display: flex;
+    justify-content: space-between;
+    color: "white"
+}
+
+.card .card_title_section .card_price {
+    color: "white"
+}
+
+.card_description {
+    margin: 0 1em;
+}
+
+.card_footer_text {
+    margin: 1em 1em;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
